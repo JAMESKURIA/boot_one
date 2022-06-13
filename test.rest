@@ -1,0 +1,26 @@
+GET http://localhost:8080/api/v1/student
+
+###
+
+
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+    "name": "James Kuria",
+    "email": "jameskuria@gmail.com",
+    "dob": "1965-12-12"
+}
+
+###
+
+DELETE http://localhost:8080/api/v1/student/1
+
+
+###
+
+
+PUT http://localhost:8080/api/v1/student/1?name=Jane+Doe&email=janedoe@gmail.com
+
+
+###
